@@ -2,14 +2,13 @@
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
-.item5 { grid-area: footer; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'header header header header header'
+    'menu main main right right'
+    'menu main main right right';
   grid-gap: 10px;
   background-color: black;
   padding: 10px;
@@ -17,15 +16,25 @@
 .grid-container > div {
   background-color:white;
   text-align: center;
-  padding: 10px 10px;
-  font-size: 30px;
+  padding: 0px 0px;
+  font-size: 16px;
 }
 
 .button{
 	text-align:center;
 	background-color:green;
 	color:white;
-	font-size:30px;
+	font-size:50px;
+}
+
+.h1 {
+	margin:10px; 
+	text-align:center;
+	font-size:100px;
+}
+
+#home1{
+	text-sixe:30px
 }
 
 
