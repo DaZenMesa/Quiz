@@ -17,8 +17,15 @@
 .grid-container > div {
   background-color:white;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 10px;
   font-size: 30px;
+}
+
+.button{
+	text-align:center;
+	background-color:green;
+	color:white;
+	font-size:30px;
 }
 
 
